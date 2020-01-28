@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Be Fit</title>
-    <link rel="icon" href="img/favicon.png">
     <!--Bootstrap CDN links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="img/favicon.png">
     <!--Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
       <!-- Bootstrap CSS -->
@@ -29,10 +29,11 @@
      <link rel="stylesheet" href="css/swiper.min.css">
      <!--Stylo CSS-->
      <link rel="stylesheet" href="css/stylo.css">
+     
     
 </head>
 
-<body class="svr">
+<body class="bdImg">
     <!--::header part start::-->
     <header class="main_menu">
         <div class="container">
@@ -53,12 +54,12 @@
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="Feature.html">Features</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="cource.html">Features</a>
+                                    <a class="nav-link" href="about.html">About</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                               <!-- <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Blog
                                     </a>
@@ -75,7 +76,7 @@
                                         <a class="dropdown-item" href="Course_Details.html">Weight Gain Workout Program</a>
                                         <a class="dropdown-item" href="Course_shedule.html">Fitness Workout</a>
                                     </div>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
@@ -84,13 +85,14 @@
                                         Register
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                        <a class="dropdown-item" href="Sign Up.html">Sign Up</a>
-                                        <a class="dropdown-item" href="LOGIN.html">Login</a>
+                                        <a class="dropdown-item" href="reg.html">Sign Up</a>
+                                        <!--<a class="dropdown-item" href="">Login</a>-->
                                     </div>
                                 </li>
                             </ul>
                         </div>
-                        <a href="form.html" class="btn_1 d-none d-lg-inline-block">Request a Demo</a>
+                        
+                        <a href="Sign In.html" class="btn_1 d-none d-lg-inline-block">Login</a>
                     </nav>
                 </div>
             </div>
@@ -101,14 +103,14 @@
     <!--Slider-->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active wow fadeIn slow">
             <img src=" img/muscles-men-bodybuilder.jpg" class="d-block w-100" alt="...">
             <div class="box">
                     <input type="text" name="" placeholder="Type..">
                     <input type="submit"  name="" value="Search">
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item wow fadeIn slow">
             <img src="img/High_resolution_wallpaper_background_ID_77702054374.jpg" class="d-block w-100" alt="...">
             <div class="box">
                 <form>
@@ -117,14 +119,14 @@
                  </form> 
            </div>        
       </div>
-          <div class="carousel-item">
+          <div class="carousel-item wow fadeIn slow">
             <img src="img/97620.jpg" class="d-block w-100" alt="...">
             <div class="box">
                 <input class="search-txt" type="text" name="" placeholder="Type..">
                 <input type="submit"  name="" value="Search">
         </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item wow fadeIn slow">
                 <img src="img/200253.jpg" class="d-block w-100" alt="...">
                 <div class="box">
                     <input class="search-txt" type="text" name="" placeholder="Type..">
@@ -144,7 +146,8 @@
 
     <!-- popular cource part here-->
     <section class="popular_cource section_padding">
-        <div class="container">
+        <div class="container-fluid">
+            <div class="jumbotron shadow">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="section_tittle text-center">
@@ -157,23 +160,23 @@
             <div class="container">
                     <div class="row">
                       <div class="col-sm">
-                            <p class="wow fadeIn fast">this is what i' donig right now is one of the best gym management software in Pakistan. As we provide fitness club management software & online gym management system which is designed with highly digitalized gym management system.                                    
+                            <p class="wow fadeIn fast back">this is what i' donig right now is one of the best gym management software in Pakistan. As we provide fitness club management software & online gym management system which is designed with highly digitalized gym management system.                                    
                         </p>
                       </div>
                       <div class="col-sm">
-                            <p class="wow fadeIn fast "> According to a study one should workout daily for at least 150 minutes a day. It helps you improve your balance, stamina, physical fitness, strengthen your bones, help you lose weight and gives good physic.</p>
+                            <p class="wow fadeIn fast back"> According to a study one should workout daily for at least 150 minutes a day. It helps you improve your balance, stamina, physical fitness, strengthen your bones, help you lose weight and gives good physic.</p>
                       </div>
                       <div class="col-sm">
-                            <p class="wow fadeIn fast ">Gym Owners, now you can easily manage your clients’ membership & training by just becoming a partner of the most leading gym management software in Pakistan     </div>
+                            <p class="wow fadeIn fast back">Gym Owners, now you can easily manage your clients’ membership & training by just becoming a partner of the most leading gym management software in Pakistan     </div>
                     </div>
                   </div>
-
+                  </div>
         </div>
     </section>
     <!-- popular cource part end-->
 
     <!-- shedule part here-->
-    <section class="shedule_part overflow-hidden">
+    <section class="shedule_part overflow-hidden shadow-none p-3 mb-5 bg-light rounded">
         <div class="container-fluid p-lg-0">
             <div class="row align-items-center">
                 <div class="col-lg-5 d-md-none d-lg-block">
@@ -256,12 +259,13 @@
 
     <!-- our feature part start-->
     <section class="our_feature section_padding">
-        <div class="container">
+        <div class="container-fluid p-lg-0">
+            <div class="jumbotron">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_tittle text-center">
-                        <h2 class="wow fadeIn fast">Reason That You Should Choose Us</h2>
-                        <p class="wow fadeIn fast">As you pour the first glass of your favorite Chianti or Chardonnay and settle into an intimate Friday evening.</p>
+                        <h2 class="wow fadeInDown fast">Reason That You Should Choose Us</h2>
+                        <p class="wow fadeInLeft slower back">As you pour the first glass of your favorite Chianti or Chardonnay and settle into an intimate Friday evening.</p>
                     </div>
                 </div>
             </div>
@@ -270,31 +274,32 @@
                     <div class="single_feature">
                         <img class="wow zoomIn fast" src="img/icon/feature_icon_1.png" alt="#">
                         <h4 class="wow slideInUp fast">Standard Training</h4>
-                        <p class="wow slideInUp fast">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p class="wow slideInUp fast back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature">
                         <img class="wow zoomIn fast" src="img/icon/feature_icon_2.png" alt="#">
                         <h4 class="wow slideInUp fast">Adaptable Timeframe</h4>
-                        <p class="wow slideInUp fast">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p class="wow slideInUp fast back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature">
                         <img class="wow zoomIn fast" src="img/icon/feature_icon_3.png" alt="#">
                         <h4 class="wow slideInUp fast">Professional Trainers</h4>
-                        <p class="wow slideInUp fast">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p class="wow slideInUp fast back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single_feature">
                         <img class="wow zoomIn fast" src="img/icon/feature_icon_4.png" alt="#">
                         <h4 class="wow slideInUp fast">Fair Price</h4>
-                        <p class="wow slideInUp fast">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p class="wow slideInUp fast back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- our feature part end-->
@@ -305,15 +310,15 @@
             <div class="row align-items-center justify-content-end">
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <div class="about_text">
-                        <h2>We are Be Fit. A Committed Fitness Center Since 2015</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <h2 class="blue">We are Be Fit. A Committed Fitness Center Since 2015</h2>
+                        <p class="bat">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p class="bat">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                         <a href="cource.html" class="btn_1">Browse Services</a>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-6">
                     <div class="about_img">
-                        <img src="img/about_img.png" alt="#">
+                        <a href="https://homegym-exercises.com/image.html?src=bentover_row_barbell_overhand_grip2" target="_blank"><img src="img/about_img.png" alt="#"></a>
                     </div>
                 </div>
             </div>
@@ -327,9 +332,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="become_member_text">
-                        <h2>Many more Features are Waiting!</h2>
-                        <p>Thinking about overseas adventure travel? Have you put any thought into the best places to go when it comes to overseas adventure travel?</p>
-                        <a href="#" class="btn_1">Become a Member</a>
+                        <h2 class="wow fadeInDownBig fast">Many more Features are Waiting!</h2>
+                        <h4 class="wow fadeInLeftBig slow whit"> Thinking about overseas adventure travel? Have you put any thought into the best places to go when it comes to overseas adventure travel?</h4>
+                        <a href="reg.html" class="btn_1 wow fadeInUpBig fast">Become a Member</a>
                     </div>
                 </div>
             </div>
@@ -341,10 +346,14 @@
     <footer class="footer-area section_padding">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-sm-6 col-lg-3">
+                <!--<div class="col-sm-6 col-lg-3">
                     <div class="single-footer-widget footer_1">
-                        <h4>About Us</h4>
                         <p>The state of Pakistan in the Punjab is land of lots of beautiful National Parks,Villages, Fresh Atmosphere in our province & ranks as three of the most magnificent & wow aweful inspiring.</p>
+                    </div>
+                </div>-->
+                <div class="col-sm-6 col-lg-3 align-items">
+                    <div class="single-footer-widget footer_1">
+                        <img src="img/IMG-20191227-WA0015.jpg" title="BeFiT">
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -359,7 +368,7 @@
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-5">
                     <div class="single-footer-widget footer_2">
-                        <h4>Newsletter</h4>
+                        <h4>GET IN TOUCH</h4>
                         <p>Stay updated with our latest trends Seed heaven so said place winged over given forth fruit.
                         </p>
                          <div id="mc_embed_signup">
@@ -401,8 +410,11 @@
     <!-- footer part end-->
 
     <!-- jquery plugins here-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- jquery -->
-    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- popper js -->
     <script src="js/popper.min.js"></script>
     <!-- bootstrap js -->
