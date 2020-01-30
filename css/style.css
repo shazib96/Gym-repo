@@ -248,14 +248,14 @@ a:focus, .button:focus, button:focus, .btn:focus {
 /* line 140, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_common.scss */
 .section_tittle {
   margin-bottom: 30px;
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 @media (max-width: 576px) {
   /* line 140, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_common.scss */
   .section_tittle {
     margin-bottom: 50px;
-    margin-top: -70;
+    margin-top: -10;
   }
 }
 
@@ -2087,13 +2087,15 @@ ul {
 
 /* line 28, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
 .main_menu .navbar-brand img {
-  max-width: 82px;
+  max-width: 120px;
+  height: 70px;
+  margin-bottom: -7px;
 }
 
 @media (max-width: 991px) {
   /* line 28, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
   .main_menu .navbar-brand img {
-    max-width: 60px;
+    max-width: 80px;
   }
 }
 
@@ -2118,7 +2120,6 @@ ul {
 /* line 47, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
 .main_menu .navbar-toggler-icon {
   background-image: url(../img/menu_icon.png);
-  
 }
 
 /* line 50, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
@@ -2153,7 +2154,7 @@ ul {
 
 /* line 66, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
-  color: rgb(75, 230, 127);
+  color: rgb(50, 82, 170);
 }
 
 /* line 71, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
@@ -2167,7 +2168,7 @@ ul {
 /* line 83, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
 .dropdown-menu {
   border: 0px solid rgba(0, 0, 0, 0.15) !important;
-  background-color: #fafafa;
+  background-color: #434e66;
 }
 
 /* line 89, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
@@ -2190,8 +2191,8 @@ ul {
 /* line 100, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
 .dropdown .dropdown-menu .dropdown-item:hover {
   color: rgb(0, 0, 0) !important;
-  font-weight: 500;
-  background-color: rgb(116, 231, 154);
+  font-weight: 400;
+  background-color: rgb(50, 81, 165);
 }
 
 /* line 106, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
@@ -2202,7 +2203,7 @@ ul {
 @media (max-width: 991px) {
   /* line 114, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
   .navbar-collapse ul li .nav-link {
-    color: rgb(255, 255, 255) !important;
+    color: rgb(50, 82, 170) !important;
   }
   /* line 121, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
   .navbar-light .navbar-toggler {
@@ -2216,7 +2217,7 @@ ul {
     left: 0;
     top: 55px;
     width: 100%;
-    background-color: rgb(94, 89, 89);
+    background-color: rgb(0, 0, 0);
     text-align: center !important;
   }
   /* line 134, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_menu.scss */
@@ -3347,7 +3348,7 @@ ul {
 /* line 269, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_footer.scss */
 .footer-area .social_icon a {
   background-color: #fe3233;
-  color: #fff;
+  color: rgb(138, 145, 248);
   display: inline-block;
   width: 30px;
   height: 20px;
@@ -3360,14 +3361,14 @@ ul {
 
 /* line 279, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_footer.scss */
 .footer-area .social_icon a:hover {
-  background-color: #fff;
+  background-color: rgb(63, 142, 207);
   color: #ff0000;
 }
 
 /* line 286, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_footer.scss */
 .footer-area .button-contactForm {
   color: #000;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 8.5px 25px;
   margin-left: -3px;
 }
@@ -3395,7 +3396,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff0000;
+  color: #131314;
 }
 
 /* line 93, /Applications/MAMP/htdocs/palash/cl/august/200 Be Fit GYM html/sass/_elements.scss */
