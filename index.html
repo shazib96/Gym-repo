@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Be Fit</title>
+    <title>Be Fit Gym Management System</title>
     <!--Bootstrap CDN links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon" href="img/favicon.png">
@@ -32,7 +32,7 @@
     
 </head>
 
-<body class="bdImg">
+<body>
     <!--::header part start::-->
     <header class="main_menu">
         <div class="container">
@@ -52,9 +52,13 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Feature.html">Features</a>
-                                </li>
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link" href="Feature.html">Features</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="Feature.html ">Weight Gain Workout</a>
+                                                <a class="dropdown-item" href=" Feature.html ">Weight Loss Workout</a>
+                                            </div>
+                                    </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
                                 </li>
@@ -79,6 +83,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="FAQ Section.html">FAQ</a>
+                                    </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Register
@@ -88,13 +95,13 @@
                                         <!--<a class="dropdown-item" href="">Login</a>-->
                                     </div>
                                 </li>
-                                <div class="flexbox">
-                                        <div class="search">
-                                          <div>
-                                            <input type="text" placeholder="Search..." required>
-                                          </div>
-                                        </div>
-                                </div>
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search">
+                                        <button type="button " class="btn btn-white b"><i class="fas fa-search text-primary"></i>
+                                        </button>
+                                    </div>
+                                </form>
                             </ul>
                         </div>
                         <a href="Sign In.html" class="btn_1 d-none d-lg-inline-block">Login</a>
@@ -108,35 +115,17 @@
     <!--Slider-->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active wow fadeIn slow">
-            <img src=" img/muscles-men-bodybuilder.jpg" class="d-block w-100" alt="...">
-            <div class="box">
-                    <input type="text" name="" placeholder="Type..">
-                    <input type="submit"  name="" value="Search">
-            </div>
+          <div class="carousel-item active wow fadeIn fast">
+            <img src=" img/720239.jpg" class="d-block w-100" alt="...">
           </div>
-          <div class="carousel-item wow fadeIn slow">
-            <img src="img/High_resolution_wallpaper_background_ID_77702054374.jpg" class="d-block w-100" alt="...">
-            <div class="box">
-                <form>
-                <input class="search-txt" type="text" name="" placeholder="Type..">
-                <input type="submit"  name="" value="Search">
-                 </form> 
-           </div>        
-      </div>
-          <div class="carousel-item wow fadeIn slow">
-            <img src="img/97620.jpg" class="d-block w-100" alt="...">
-            <div class="box">
-                <input class="search-txt" type="text" name="" placeholder="Type..">
-                <input type="submit"  name="" value="Search">
-        </div>
+          <div class="carousel-item wow fadeIn fast">
+            <img src="img/High_resolution_wallpaper_background_ID_77702054374.jpg" class="d-block w-100" alt="...">  
           </div>
-          <div class="carousel-item wow fadeIn slow">
+          <div class="carousel-item wow fadeIn fast">
+            <img src="img/Bodybuilding_Me.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item wow fadeIn fast">
                 <img src="img/200253.jpg" class="d-block w-100" alt="...">
-                <div class="box">
-                    <input class="search-txt" type="text" name="" placeholder="Type..">
-                    <input type="submit"  name="" value="Search">
-                </div>
            </div>    
         </div>
         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -150,10 +139,10 @@
       </div>
 
     <!-- popular cource part here-->
-    <section class="popular_cource section_padding">
+    <section class="popular_cource ">
         <div class="container-fluid">
-            <div class="jumbotron shadow">
-            <div class="row justify-content-center">
+            <div class="jumbotron shadow mt-4">
+            <div class="row justify-content-center ">
                 <div class="col-lg-5">
                     <div class="section_tittle text-center">
                         <h2 class="wow fadeIn fast">WELCOME TO BEFIT</h2>
@@ -263,9 +252,9 @@
     <!-- shedule part end-->
 
     <!-- our feature part start-->
-    <section class="our_feature section_padding">
+    <section class="our_feature ">
         <div class="container-fluid p-lg-0">
-            <div class="jumbotron">
+            <div class="jumbotron mt-4">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section_tittle text-center">
@@ -310,7 +299,7 @@
     <!-- our feature part end-->
 
     <!-- about part here-->
-    <section class="about_part padding_bottom overflow-hidden">
+    <section class="about_part padding_bottom overflow-hidden ">
         <div class="container-fluid p-lg-0">
             <div class="row align-items-center justify-content-end">
                 <div class="col-xl-4 col-lg-6 col-md-6">
@@ -318,7 +307,7 @@
                         <h2 class="blue">We are Be Fit. A Committed Fitness Center Since 2015</h2>
                         <p class="bat">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <p class="bat">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                        <a href="cource.html" class="btn_1">Browse Services</a>
+                    
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-md-6">
@@ -415,9 +404,9 @@
     <!-- footer part end-->
 
     <!-- jquery plugins here-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
     <!-- jquery -->
     <script src="js/jquery.min.js"></script>
     <!-- popper js -->
@@ -455,6 +444,9 @@
 );
 wow.init();
     </script>
+    <script>$('.carousel').carousel({
+            interval: 60000
+          })</script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
     <script src="https://kit.fontawesome.com/481e0e5b38.js" crossorigin="anonymous"></script>

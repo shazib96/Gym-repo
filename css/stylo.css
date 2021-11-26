@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  /* background: #fff;*/
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -43,43 +43,8 @@ body {
   color: rgb(12, 12, 12);
   font-family: sans-serif;
 }
-.box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  transform: translate(-50%, -50%);
-}
-input {
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-  box-sizing: border-box;
-  transition: 0.5;
-}
-input[type="text"] {
-  background: #fff;
-  width: 340px;
-  height: 50px;
-  border: none;
-  outline: none;
-  padding: 0 25px;
-  border-radius: 25px 0 0 25px;
-}
-input[type="submit"] {
-  position: relative;
-  left: -5px;
-  border-radius: 0 25px 25px 0;
-  width: 150px;
-  height: 50px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background: #3a99e7;
-  color: #fff;
-}
-input[type="submit"]:hover {
-  background: #2214ec;
+.b {
+  background-color: rgba(223, 213, 213, 0.753);
 }
 .svr {
   background: rgb(245, 244, 244);
@@ -106,12 +71,12 @@ input[type="submit"]:hover {
   color: rgb(10, 10, 10);
 }
 .bat {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Times New Roman", Times, serif;
   font-size: large;
 }
 .blue {
-  color: #5246f1;
+  color: #8881e4;
 }
 .bdImg {
   background-image: url("/img/200487.jpg");
@@ -128,11 +93,22 @@ input[type="submit"]:hover {
   background-color: rgb(51, 54, 238);
   color: white;
 }
+.preLeft:hover {
+  background-color: tomato;
+  color: white;
+  box-shadow: #000;
+}
 .nextRt {
   margin-left: 300pt;
   background-color: rgb(51, 54, 238);
   color: white;
 }
+.nextRt:hover {
+  background-color: tomato;
+  color: white;
+  box-shadow: #000;
+}
+
 .elu {
   background-color: rgb(51, 54, 238);
   background: linear-gradient(155deg, #555c155, #2bb, #3bc1ed);
@@ -142,94 +118,6 @@ p {
   font-size: large;
   font-weight: 400;
   font-style: normal;
-  font-family: serif;
+  font-family: Georgia, serif;
   font-family: "Times New Roman", Times, serif;
-}
-
-@import url("fonts/Searchfont/https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
-
-* {
-  font-family: Roboto, sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
-.flexbox {
-  background: linear-gradient(155deg, #aaccd8, #4dc0c0, #9de0f7);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  background: transparent;
-  justify-content: center;
-  align-items: center;
-}
-
-.search {
-  margin: 20px;
-}
-
-.search > h3 {
-  font-weight: normal;
-}
-
-.search > h1,
-.search > h3 {
-  color: white;
-  margin-bottom: 15px;
-  text-shadow: 0 1px #0091c2;
-}
-
-.search > div {
-  display: inline-block;
-  position: relative;
-}
-
-.search > div:after {
-  content: "";
-  background: white;
-  width: 4px;
-  height: 20px;
-  position: absolute;
-  top: 40px;
-  right: 2px;
-  transform: rotate(135deg);
-  box-shadow: 1px 0 #696a6b;
-}
-
-.search > div > input {
-  color: white;
-  font-size: 16px;
-  background: transparent;
-  width: 25px;
-  height: 25px;
-  padding: 10px;
-  border: solid 3px white;
-  outline: none;
-  border-radius: 35px;
-  box-shadow: 0 1px #575858;
-  transition: width 0.5s;
-}
-
-.search > div > input::placeholder {
-  color: #efefef;
-  opacity: 1;
-}
-
-.search > div > input::-ms-placeholder {
-  color: #efefef;
-}
-
-.search > div > input::-ms-input-placeholder {
-  color: #efefef;
-}
-
-.search > div > input:focus,
-.search > div > input:valid {
-  width: 250px;
 }

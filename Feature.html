@@ -8,6 +8,8 @@
     <title>Be Fit Features</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="icon" href="img/favicon.png">
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate CSS -->
@@ -27,7 +29,7 @@
    
 </head>
 
-<body class="bdImg">
+<body>
     <!--::header part start::-->
     <header class="main_menu home_menu">
         <div class="container">
@@ -47,8 +49,12 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link" href="Feature.html">Features</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="Feature.html"><a href="#Gain"> Weight Gain Workout</a></a>
+                                            <a class="dropdown-item" href="Feature.html"><a href="#Loss">Weight Loss Workout</a> </a>
+                                        </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="about.html">About</a>
@@ -74,6 +80,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="FAQ Section.html">FAQ</a>
+                                    </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Register
@@ -83,13 +92,13 @@
                                         <!--<a class="dropdown-item" href="">Login</a>-->
                                     </div>
                                 </li>
-                                <div class="flexbox">
-                                        <div class="search">
-                                          <div>
-                                            <input type="text" placeholder="Search..." required>
-                                          </div>
+                                <form>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <button type="button " class="btn btn-white b"><i class="fas fa-search text-primary"></i>
+                                            </button>
                                         </div>
-                                </div>
+                                </form>
                             </ul>
                         </div>
                         <a href="Sign In.html" class="btn_1 d-none d-lg-inline-block">Login</a>
@@ -100,30 +109,32 @@
     </header>
     <!-- Header part end-->
 
-   <!-- breadcrumb start-->
-   <section class="breadcrumb breadcrumb_bg">
+    <!-- banner part start-->
+    <section class="banner_part">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb_iner text-center">
-                        <div class="breadcrumb_iner_item">
-                            <h2>Our Features</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <p class="wow fadeInRightBig">Working hard in order to get perfect shape.</p>
+                            <h1 class="wow fadeInLeftBig">Be Fit Fitness Studio</h1>
+                            <!--<a href="#" class="btn_1">Browse Services</a>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- breadcrumb start-->
+    <!-- banner part start-->
 
      <!-- Columns are always 50% wide, on mobile and desktop -->
-<section class="jumbotron">
+<section class="mt-5 mb-5">
  <div class="container">   
   <div class="row">
     <div class="col-md-6">
-            <h2>Workout Programs To Gain Weight</h2>
+            <h2 id="Gain">Workout Programs To Gain Weight</h2>
         <p>People do exercise for various reasons. Some of do workout to feel better & energetic, some used to do it as a part of daily routines to get slimmer or fatty. As losing weight is challenging, gaining weight is more challenging. We need to take care of our diet process, regular workouts, etc. Then what to do to achieve these goals? Will you consult a Gym instructor for a workout program to gain weight? Well, Be FiT offers online Gym instructor app with weight gain exercise program.</p>
-        <p>Gaining weight is a healthy way but it doesn’t mean to get up & go to each junk food & YOLO meal like crazy. Nope… Healthy means you require a proper diet & exercise which can only provide by the best workout program to gain weight. Workouts to gain weight for skinny guys is the better way to mold your body in shape with gaining weight. Sounds interesting?</p>    
+        <p class="mt-5">Gaining weight is a healthy way but it doesn’t mean to get up & go to each junk food & YOLO meal like crazy. Nope… Healthy means you require a proper diet & exercise which can only provide by the best workout program to gain weight. Workouts to gain weight for skinny guys is the better way to mold your body in shape with gaining weight. Sounds interesting?</p>    
     </div>
     <div class="col-md-6">
         <img src="img/110727-F-VO466-031.jpg">
@@ -132,16 +143,58 @@
   <div class="example-container">
         <div class="example-row">
           <div class="example-content-main">
+            <div class="row">
+              <div class="col-md-6">
               <p>Yes, offers weight gain exercise program on your fingertip. You just need to download a Gym instructor app to follow the workout program to gain weight. If you are looking for weight gain exercise program, then you must have the basic idea about what workout you will need to do during the process of weight loss. As thin people are always ready to try a varied diet, and new exercises, like Push-ups, Low-Intensity Aerobic Workout, cardiovascular workout, Lunges and Squats, Bench Press, Deadlifts, Pull-Ups, Upright Barbell Rows, and Dumbbell Shoulder Press, etc…</p>
-          </div>
-          <div class="example-content-secondary">
+              </div>
+              <div class="col-md-6">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_trTfA7MPtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>          
+              <div class="example-content-secondary">
               <p>Be FiT will guide you about your specific exercises via a workout program to gain weight. So you will get all instructions for a workout by professional instructors, tips & diet plan in just a minute. Whether you are a man or a woman, Fittotech offers all specific weight gain exercise program for both.</p>
+         </div>
+         </div>
          </div>
         </div>
   </div>
 </div>
-<div class="flexbox">
-    <div class="jumbotron">
+
+</section>
+<hr>
+<section class="section_padding">
+ <div class="container">   
+  <div class="row">
+    <div class="col-md-6">
+            <h2 id="Loss">Workout Programs To Loss Weight</h2>
+        <p>People do exercise for various reasons. Some of do workout to feel better & energetic, some used to do it as a part of daily routines to get slimmer or fatty. As losing weight is challenging, gaining weight is more challenging. We need to take care of our diet process, regular workouts, etc. Then what to do to achieve these goals? Will you consult a Gym instructor for a workout program to gain weight? Well, Be FiT offers online Gym instructor app with weight gain exercise program.</p>
+        <p class="mt-5">Gaining weight is a healthy way but it doesn’t mean to get up & go to each junk food & YOLO meal like crazy. Nope… Healthy means you require a proper diet & exercise which can only provide by the best workout program to gain weight. Workouts to gain weight for skinny guys is the better way to mold your body in shape with gaining weight. Sounds interesting?</p>    
+    </div>
+    <div class="col-md-3">
+        <img src="img/ifsq8wei8xxy.jpg">
+    </div>
+  <div class="col-md-3">
+        <img src="img/Personal-Trainer-Before-After-130-Pound-Weight-Loss.jpg">
+      </div>
+  </div>
+  <div class="example-container">
+        <div class="example-row">
+          <div class="example-content-main">
+            <div class="row">
+              <div class="col-md-6">
+              <p>Yes, offers weight gain exercise program on your fingertip. You just need to download a Gym instructor app to follow the workout program to gain weight. If you are looking for weight gain exercise program, then you must have the basic idea about what workout you will need to do during the process of weight loss. As thin people are always ready to try a varied diet, and new exercises, like Push-ups, Low-Intensity Aerobic Workout, cardiovascular workout, Lunges and Squats, Bench Press, Deadlifts, Pull-Ups, Upright Barbell Rows, and Dumbbell Shoulder Press, etc…</p>
+              </div>
+              <div class="col-md-6">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_trTfA7MPtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>          
+              <div class="example-content-secondary">
+              <p>Be FiT will guide you about your specific exercises via a workout program to gain weight. So you will get all instructions for a workout by professional instructors, tips & diet plan in just a minute. Whether you are a man or a woman, Fittotech offers all specific weight gain exercise program for both.</p>
+         </div>
+         </div>
+         </div>
+        </div>
+  </div>
+</div>
+<div class="flexbox mt-5">
         <div class="container-fluid">
                 <div class="row row-cols-4">
                   <div class="col-sm-12 col-md-3">
@@ -159,13 +212,9 @@
                 </div>
               </div>
               </div>
-              </div>
-
 </section>
-
-
     <!-- popular cource start-->
-    <section class="popular_cource single_page_popular_cource padding_top jumbotron ">
+    <section class="popular_cource single_page_popular_cource jumbotron mb-0">
         <div class="container-fluid ">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
@@ -200,79 +249,13 @@
                         <a href="reg.html" class="btn_2">Apply Course</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_popular_cource">
-                        <img src="img/single_cource_1.png" alt="">
-                        <h3>Basic Body Building <span>1000 Rs.</span></h3>
-                        <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <a href="reg.html" class="btn_2">Apply Course</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_popular_cource">
-                        <img src="img/single_cource_2.png" alt="">
-                        <h3>BIntermediate Body Building <span>2000 Rs</span></h3>
-                        <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <a href="reg.html" class="btn_2">Apply Course</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_popular_cource">
-                        <img src="img/single_cource_3.png" alt="">
-                        <h3>Advanced Body Building <span>4000 Rs.</span></h3>
-                        <p class="back">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <a href="reg.html" class="btn_2">Apply Course</a>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- popular cource end-->
 
-    <!-- our feature part start-->
-    <section class="our_feature section_padding">
-        <div class="container jumbotron shadow">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_tittle text-center">
-                        <h2>Why You Should Choose Us</h2>
-                        <p>As you pour the first glass of your favorite Chianti or Chardonnay and settle into an intimate Friday evening.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <img src="img/icon/feature_icon_1.png" alt="#">
-                        <h4>Quality Training</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <img src="img/icon/feature_icon_2.png" alt="#">
-                        <h4>Flexible Timeframe</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <img src="img/icon/feature_icon_3.png" alt="#">
-                        <h4>Qualified Trainers</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_feature">
-                        <img src="img/icon/feature_icon_4.png" alt="#">
-                        <h4>Affordable Price</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- our feature part end-->
+
 
     <!-- footer part start-->
     <footer class="footer-area section_padding">
@@ -342,9 +325,9 @@
     <!-- footer part end-->
 
     <!-- jquery plugins here-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
     <!-- jquery -->
     <script src="js/jquery.min.js"></script>
     <!-- popper js -->
@@ -384,6 +367,8 @@ wow.init();
     <script src="js/custom.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
+    <script src="https://kit.fontawesome.com/481e0e5b38.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
